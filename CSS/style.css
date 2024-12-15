@@ -1,0 +1,77 @@
+header{
+    background-color: rgb(236, 169, 43);
+    padding:  20px;
+    text-align: center;
+    width: 1100px;
+    margin:  0;
+}
+.block{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sitename{
+    margin-bottom: 10px;
+    font: 20px Arial;
+}
+nav{
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    
+
+}
+.container{
+    display: flex;
+}
+main{
+    width: 870px;
+    padding: 20px;
+    
+}
+.right{
+    width: 200px;
+    margin-left: 30px;
+    padding: 20px;
+}
+footer{
+    padding: 30px 0;
+    text-align: center;
+    width: 1100px;
+    margin: 30px auto;
+    background-color: rgb(236, 169, 43);
+    
+}
+*{
+box-sizing: border-box;
+}
+.wrapper{
+    width: 1100px;
+    margin: 30px auto;
+  
+}
+nav a{
+    display:flex ;
+    width: 400px;
+    font: 14px Arial;
+    color: black;
+    text-decoration: none;
+    font-weight: 700; 
+   
+}
+nav a:hover, nav a :active{
+    color: red;
+    text-decoration: underline;
+}
+main h1{
+    font: 20px "Times New Roman";
+}
+main p{
+    margin: 10px 0;
+    text-align: justify;
+    font: 15px Arial;
+}
+body{
+    font-family: "Playfair Display", serif;
+
+}
